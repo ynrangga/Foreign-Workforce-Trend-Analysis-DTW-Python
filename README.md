@@ -57,4 +57,5 @@ This dataset reflects official workforce permits for foreign nationals engaged i
 | Cluster 1 | Low-volume, stable workforce trends (14 nationalities)     |
 | Cluster 2 | Moderate-to-high, fluctuating trends (Japan, Korea, India) |
 | Cluster 3 | Extreme, dominant trend (China – PRC)                      |
+
 Optimal cluster count determined using Silhouette Score (highest at k = 3).
