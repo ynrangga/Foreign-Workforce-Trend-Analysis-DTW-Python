@@ -51,7 +51,7 @@ This dataset reflects official workforce permits for foreign nationals engaged i
 - Workforce volatility is extreme, with total foreign workers increasing from 12,193 (2021) to 138,662 (2022) (>10× YoY growth), indicating strong post-pandemic recovery effects.
 - China (RRC) dominates workforce contribution, accumulating 79,162 workers (2014–2024) and accounting for 44.3% of total foreign workers in 2024, making it a statistical outlier.
 - DTW-based hierarchical clustering (Complete Linkage) identifies 3 optimal clusters, validated by the highest Silhouette Score of 0.719 (k = 3).
-### 📈 Clustering Results (DTW-Based)
+### 📊 Clustering Results (DTW-Based)
 | Cluster   | Characteristics                                            |
 | --------- | ---------------------------------------------------------- |
 | Cluster 1 | Low-volume, stable workforce trends (14 nationalities)     |
@@ -59,3 +59,9 @@ This dataset reflects official workforce permits for foreign nationals engaged i
 | Cluster 3 | Extreme, dominant trend (China – RRC)                      |
 
 Optimal cluster count determined using Silhouette Score (highest at k = 3).
+
+## 📈 Key Visualizations
+### DTW-Based Clustering
+![DTW Dendrogram](visuals/dtw_dendrogram_complete_linkage.png)
+### Cluster Validation (Silhouette Score)
+![Silhouette Score](visuals/silhouette_score_clusters.png)
